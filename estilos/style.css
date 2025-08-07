@@ -32,9 +32,9 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
   overflow: hidden;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.433);
+  transform: translate(-50%,-50%);
   transition: width .3s, height .3s;
   transition-timing-function: ease;
    
@@ -127,8 +127,26 @@
 
     .botao > span{
       font-size: 0.8em;
+      color:black;
     }
 
     div{
       padding: 0 10px;
     }
+
+    .barra > span{
+     font-size: 2em;
+     width: 40px;
+    padding: 5px;
+    }
+
+    .barra > input{
+      background-color: #53b8b5;
+      font-size: 1em;
+     height: 100%;
+     border-radius: 8px;
+     padding: 4px;
+     width: calc(100% - 45px);
+     transform: translateY(-10px);
+    }
+    
